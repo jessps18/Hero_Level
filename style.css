@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&display=swap');
+
+.site {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), /* camada escura transparente */
+        url(./img/mulher\ maravilha.png),
+        radial-gradient(circle, rgba(120, 2, 2, 1) 1%, rgba(58, 0, 0, 1) 100%);
+
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto 100%;
+    
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    color: #FFF07D;
+    gap: 20px;
+    font-family: "Baskervville", serif;
+}
+
+.title{
+    font-size: 70px;
+}
+
+.nome{
+    display: flex;
+    flex-direction: column;
+    font-family: "Baskervville", serif;
+
+}
+.nome input{
+    background-color: #ffd942ab;
+    border: none;
+    border-radius: 20px;
+    height: 6vh;
+    width: 30vw;
+    padding-left: 10px;
+
+}
+
+.send{
+    background-color: #220000f1;
+    color: #FFF07D;
+    border-radius: 20px;
+    border: none;
+    width: 15vw;
+    height: 5vh;
+}
+
+.quantidadeXP{
+    display: flex;
+    flex-direction: column;
+    font-family: "Baskervville", serif;
+}
+.quantidadeXP input{
+    background-color: #ffd942ab;
+    border: none;
+    border-radius: 20px;
+    height: 6vh;
+    width: 30vw;
+    padding-left: 10px;
+}
+
+.nome input:focus{
+    outline: none;
+}
+
+.quantidadeXP input:focus{
+    outline: none;
+}
